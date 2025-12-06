@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Pewter</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar transparent-nav">
+
+    <div class="nav-container">
+        <div class="top-nav">
+            <div class="top-left">
+                <div class="left-item">
+                    <img src="assets/icons/email.svg" class="top-icon">
+                    <span>custompewter.com</span>
+                </div>
+
+                <div class="left-item">
+                    <img src="assets/icons/phone.svg" class="top-icon">
+                    <span>082452154323</span>
+                </div>
+            </div>
+
+            <div class="top-right">
+                <a href="https://instagram.com/" target="_blank" rel="noopener">
+                    <img src="assets/icons/instagram.svg" class="top-icon shadow-menu">
+                </a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener">
+                    <img src="assets/icons/facebook.svg" class="top-icon shadow-menu">
+                </a>
+                <a href="https://tiktok.com/" target="_blank" rel="noopener">
+                    <img src="assets/icons/tiktok.svg" class="top-icon shadow-menu">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-divider"></div>
+
+    <div class="nav-container">
+        <div class="bottom-nav">
+            <img src="assets/icons/logo.svg" class="bottom-logo shadow-menu" alt="logo">
+
+<div class="bottom-menu">
+    <a href="#" class="shadow-menu">Home</a>
+    <a href="#product" class="shadow-menu">Product</a>
+    <a href="#about" class="shadow-menu">About</a>
+    <a href="#contact" class="shadow-menu">Contact</a>
+</div>
+
+<!-- HAMBURGER BUTTON (MOBILE) -->
+<button class="hamburger" id="hamburgerBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenuBtn">✕</button>
+
+    <a href="#">Home</a>
+    <a href="#product">Product</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- DARK OVERLAY -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+        </div>
+    </div>
+    
+</header>
+
+<section class="hero">
+    <img src="assets/img/banner1.png" alt="Hero Banner" class="hero-img">
+
+<section class="client-section">
+      <div class="container">
+        <h2 class="client-title">TELAH DI PERCAYA OLEH</h2>
+        <div class="marquee">
+          <ul class="marquee-content">
+            <li><img src="assets/img/mitra/l1.svg" alt="Logo 1" /></li>
+            <li><img src="assets/img/mitra/l2.svg" alt="Logo 2" /></li>
+            <li><img src="assets/img/mitra/l3.svg" alt="Logo 3" /></li>
+            <li><img src="assets/img/mitra/l4.svg" alt="Logo 4" /></li>
+            <li><img src="assets/img/mitra/l5.svg" alt="Logo 5" /></li>
+            <li><img src="assets/img/mitra/l6.svg" alt="Logo 6" /></li>
+            <li><img src="assets/img/mitra/l7.svg" alt="Logo 7" /></li>
+            <li><img src="assets/img/mitra/l8.svg" alt="Logo 8" /></li>
+            <li><img src="assets/img/mitra/l9.svg" alt="Logo 9" /></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+<section id="product" class="product-showcase">
+  <div class="container">
+    <h2 class="showcase-title">Exquisite Medal Collection</h2>
+    <p class="showcase-intro">
+      Discover our meticulously crafted medals, each piece a testament to precision engineering and timeless artistry.
+    </p>
+
+    <div class="product-grid">
+
+      <!-- PRODUCT 1 -->
+      <div class="product-card" data-images="assets/img/product/1d.png,assets/img/product/1c.png">
+        <div class="product-image">
+          <img src="assets/img/product/1d.png" class="primary-img" alt="Victory Medal">
+          <img src="assets/img/product/1c.png" class="secondary-img" alt="Victory Medal Detail">
+        </div>
+        <h3 class="product-name">Victory Medal</h3>
+        <p class="product-desc">
+          Crafted from high-grade pewter with intricate detailing.
+        </p>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="product-card" data-images="assets/img/product/2.png,assets/img/product/2b.png">
+        <div class="product-image">
+          <img src="assets/img/product/2.png" class="primary-img" alt="Heritage Medal">
+          <img src="assets/img/product/2b.png" class="secondary-img" alt="Heritage Medal Detail">
+        </div>
+        <h3 class="product-name">Heritage Medal</h3>
+        <p class="product-desc">
+          Precision-molded with a focus on artisanal quality.
+        </p>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="product-card" data-images="assets/img/product/7a.png,assets/img/product/7b.png">
+        <div class="product-image">
+          <img src="assets/img/product/7a.png" class="primary-img" alt="Achievement Medal">
+          <img src="assets/img/product/7b.png" class="secondary-img" alt="Achievement Medal Detail">
+        </div>
+        <h3 class="product-name">Achievement Medal</h3>
+        <p class="product-desc">
+          Engineered for durability and elegance.
+        </p>
+      </div>
+
+      <!-- ✅ PRODUCT 4 (FIXED TOTAL) -->
+      <div class="product-card" data-images="assets/img/product/3a.png,assets/img/product/3b.png">
+        <div class="product-image">
+          <img src="assets/img/product/3a.png" class="primary-img" alt="Legacy Medal">
+          <img src="assets/img/product/3a.png" class="secondary-img" alt="Legacy Medal Detail">
+        </div>
+        <h3 class="product-name">Legacy Medal</h3>
+        <p class="product-desc">
+          Handcrafted with premium pewter composition.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="container">
+
+        <div class="about-left">
+            <h2 class="section-title">About Custom Pewter</h2>
+
+            <p class="about-text">
+                Custom Pewter specializes in crafting <strong>premium custom medals</strong> using high-quality materials such as <strong>Zinc Alloy</strong> and <strong>durable metal alloy blends</strong>. Our medals are designed to look elegant, feel solid in hand, and deliver the level of quality suitable for competitions, corporate events, and international-standard awards.
+            </p>
+
+            <p class="about-text">
+                With a production process that combines <strong>precision molding, fine detailing, and expert finishing</strong>, every medal we create showcases outstanding clarity, depth, and durability. Whether you need detailed 2D/3D medals, custom shapes, or branded premium medals — we turn your ideas into high-quality metal creations.
+            </p>
+
+            <ul class="about-list">
+                <li>• Premium Zinc Alloy (High Detail + Strong Durability)</li>
+                <li>• Standard Metal Alloy (Economical + Good Quality)</li>
+                <li>• High-precision Custom Molding (2D & 3D)</li>
+                <li>• Custom Plating Colors: Gold, Silver, Bronze, Black Nickel</li>
+            </ul>
+        </div>
+
+        <div class="about-right">
+            <img src="assets/icons/logo1.svg" alt="About Custom Pewter">
+        </div>
+
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+
+    <!-- LEFT : FORM -->
+    <div class="contact-left">
+      <h4 class="contact-mini-title">Contact Us</h4>
+      <h2 class="contact-title">Get In Touch</h2>
+
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" id="name" placeholder="Your Name..." required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="example@yourmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="subject" placeholder="Title..." required>
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="message" placeholder="Type Here..." required></textarea>
+        </div>
+
+        <button type="submit" class="contact-btn">Send Now</button>
+      </form>
+    </div>
+
+    <!-- RIGHT : INFO -->
+    <div class="contact-right">
+
+      <p class="contact-text">
+        In tempus nisl turpis, at ultricies dui eleifend a. Quisque et quam vel nunc consectetur pharetra euismod et elit. 
+        Morbi nibh tortor, ullamcorper id purus eu, rhoncus consequat velit.
+      </p>
+
+      <div class="contact-info-wrap">
+        <div class="info-box">
+          <span class="info-icon">📞</span>
+          <h4>Phone Number</h4>
+          <p>+6282 4032 567</p>
+        </div>
+
+        <div class="info-box">
+          <span class="info-icon">✉️</span>
+          <h4>Email Address</h4>
+          <p>custompewter.com</p>
+        </div>
+
+        <div class="info-box">
+          <span class="info-icon">💬</span>
+          <h4>Whatsapp</h4>
+          <p>082-245-7253</p>
+        </div>
+
+        <div class="info-box">
+          <span class="info-icon">📍</span>
+          <h4>Our Office</h4>
+          <p>JL. Bulevar Utama Ruko Rubby Commercial No.20
+Kel. Rancabolang, Kec. Gedebage, Kota Bandung, Indonesia</p>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.618312390313!2d107.6948181!3d-6.9600125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c3007afe6635%3A0xa9d9cf490bbec6fb!2sCUSTOM%20PEWTER%20INDONESIA!5e0!3m2!1sid!2sid!4v1736239999999"
+          width="100%" height="250" style="border:0;" loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <footer class="footer-section">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <h2 class="footer-title">PT. CUSTOM PEWTER INDONESIA</h2>
+
+          <h3 class="footer-subtitle">ONLINE SERVICE</h3>
+          <p>SENIN - SABTU</p>
+          <p>08:00 - 17:00</p>
+          
+          <h3 class="footer-subtitle">KONSULTASI DESAIN WHATSAPP</h3>
+          <p>
+            ADMIN 1:
+            <a
+              href="https://wa.me/6281808878910?text=Halo%20admin,%20saya%20ingin%20konsultasi%20mengenai%20desain%20dan%20pemesanan%20kepala%20sabuk%20custom."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            KONSULTASI DENGAN ADMIN
+            </a>
+          </p>
+
+          <p>
+
+          <h3 class="footer-subtitle">ALAMAT KAMI</h3>
+          <p>
+            JL. Bulevar Utama Ruko Rubby Commercial No.20<br />
+            Kel. Rancabolang, Kec. Gedebage, Kota Bandung, Indonesia
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <img
+            src="assets/icons/logo.svg"
+            alt="Custom Pewter Logo"
+            class="footer-logo"
+          />
+        </div>
+      </div>
+    </footer>
+
+
+
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/contact.js"></script>
+
+</body>
+</html>
